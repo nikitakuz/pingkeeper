@@ -1,6 +1,6 @@
 {
   "name": "pingkeeper",
-  "description": "",
+  "description": "Forwards pings from pingdom to my other applications to keep them alive",
   "version": "0.0.1",
   "private": false,
   "scripts": {

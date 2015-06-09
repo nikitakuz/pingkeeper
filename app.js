@@ -5,12 +5,9 @@ var app = express();
 
 app.set('env', process.env.NODE_ENV || 'development');
 
-app.use(express.cookieParser());
-app.use(express.bodyParser());
-app.use(express.session({ secret: 't0ps3kr1t' }));
-
 var hosts = [
-  'www.jadeless.com'
+  'www.jadeless.com',
+  'jadeless-dot-com.herokuapp.com'
 ];
 
 app.get('/', function(req, res) {

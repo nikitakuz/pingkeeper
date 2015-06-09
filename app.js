@@ -10,11 +10,7 @@ app.use(express.bodyParser());
 app.use(express.session({ secret: 't0ps3kr1t' }));
 
 var hosts = [
-  'debugger.herokuapp.com',
-  'jadeless-fire.herokuapp.com',
-  'fotpa.herokuapp.com',
-  'www.jadeless.com',
-  'www.rgbhelper.com'
+  'www.jadeless.com'
 ];
 
 app.get('/', function(req, res) {

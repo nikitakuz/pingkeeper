@@ -7,7 +7,8 @@ app.set('env', process.env.NODE_ENV || 'development');
 
 var hosts = [
   'www.jadeless.com',
-  'jadeless-dot-com.herokuapp.com'
+  'jadeless-dot-com.herokuapp.com',
+  'yabba-tabba-do.herokuapp.com'
 ];
 
 app.get('/', function(req, res) {
